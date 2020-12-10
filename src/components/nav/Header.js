@@ -16,8 +16,12 @@ const { SubMenu, Item } = Menu;
 const Header = () => {
 
 	const [ current, setCurrent ] = useState( 'home' )
+	//dispatch is a function of the Redux store. 
+	//You call store.dispatch to dispatch an action.T
+	//his is the only way to trigger a state change.
 	let dispatch = useDispatch();
 	let history = useHistory();
+
 	const handleClick = ( e ) => {
 		console.log( e.key )
 		setCurrent( e.key )
@@ -26,7 +30,7 @@ const Header = () => {
 
 	const logout = () => {
 		firebase.auth().signOut();
-		dispatchEvent( {
+		dispatch( {
 			type: "LOGOUT",
 			payload: null
 		} )
@@ -44,10 +48,6 @@ const Header = () => {
 			<Item key="login" icon={<UserOutlined />} className="float-right">
 				<Link to="/login">Login </Link>
 			</Item>
-
-
-
-
 
 			<SubMenu
 				key="SubMenu"
