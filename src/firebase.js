@@ -12,9 +12,16 @@ const firebaseConfig = {
 	messagingSenderId: "698544724268",
 	appId: "1:698544724268:web:ecdc576100b9a755a53489"
 
+
+	//apiKey: "AIzaSyAA-U9si_nYrhGsDDhNumAqySIIBCgA7qs",
+	//authDomain: "plantexchangeinc-3f590.firebaseapp.com",
+	//projectId: "plantexchangeinc-3f590",
+	//storageBucket: "plantexchangeinc-3f590.appspot.com",
+	//messagingSenderId: "984048944294",
+	//appId: "1:984048944294:web:818af334c3b5af898be067"
 };
 // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+firebase.initializeApp( firebaseConfig );
 
 
 export const auth = firebase.auth();
