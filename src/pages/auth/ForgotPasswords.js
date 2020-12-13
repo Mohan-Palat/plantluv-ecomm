@@ -14,21 +14,22 @@ const ForgotPassword = ( { history } ) => {
 		const config = {
 			url: process.env.REACT_APP_FORGOT_PASSWORD_REDIRECT,
 			handleCodeInApp: true,
-		}
+		};
 
-		await auth.sendPasswordResetEmail( email, config )
+		await auth
+			.sendPasswordResetEmail( email, config )
 			.then( () => {
-				setEmail( "" )
-				setLoading( false )
-				toast.success( "Check your email for password reset link" )
-			} )
-			.catch( ( err ) => {
-
+				setEmail( "" );
 				setLoading( false );
-				toast.error( err.message )
-				console.log( "error in forgot passs====>>>", err.message )
+				toast.success( "Check your email for password reset link" );
 			} )
-	}
+			.catch( ( error ) => {
+				setLoading( false );
+				toast.error( error.message );
+				console.log( "ERROR MSG IN FORGOT PASSWORD", error );
+			} );
+	};
+
 	return (
 		<div className="container col-md-6 offset-md-3 p-5">
 			{loading ? (
@@ -53,12 +54,6 @@ const ForgotPassword = ( { history } ) => {
 			</form>
 		</div>
 	);
-
-}
-
-
-
-
-
+};
 
 export default ForgotPassword;

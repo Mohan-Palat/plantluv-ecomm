@@ -13,12 +13,17 @@ const firebaseConfig = {
 	appId: "1:698544724268:web:ecdc576100b9a755a53489"
 
 
-	//apiKey: "AIzaSyAA-U9si_nYrhGsDDhNumAqySIIBCgA7qs",
-	//authDomain: "plantexchangeinc-3f590.firebaseapp.com",
-	//projectId: "plantexchangeinc-3f590",
-	//storageBucket: "plantexchangeinc-3f590.appspot.com",
-	//messagingSenderId: "984048944294",
-	//appId: "1:984048944294:web:818af334c3b5af898be067"
+
+
+	//apiKey: "AIzaSyDosUAKULgC77M3jOuZSfH8lTZRmBjEAqo",
+	//authDomain: "plant-exchange-c0d9e.firebaseapp.com",
+	//projectId: "plant-exchange-c0d9e",
+	//storageBucket: "plant-exchange-c0d9e.appspot.com",
+	//messagingSenderId: "944562513318",
+	//appId: "1:944562513318:web:caa8937db83c6d624e9b67"
+
+
+
 };
 // Initialize Firebase
 firebase.initializeApp( firebaseConfig );
