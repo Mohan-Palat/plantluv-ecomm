@@ -23,18 +23,12 @@ const UserNav = () => (
 			</li>
 			<li className="nav-item">
 				<Link to="/user/mygarden" className="nav-link">
-					Wishlist
+					My Garden Pictures
         </Link>
 
 
 			</li>
-			<li className="nav-item">
-				<Link to="/user/sname" className="nav-link">
-					Wishlist
-        </Link>
 
-
-			</li>
 		</ul>
 	</nav>
 );

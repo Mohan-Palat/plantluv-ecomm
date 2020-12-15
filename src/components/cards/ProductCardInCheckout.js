@@ -1,6 +1,6 @@
 import React from "react";
 import ModalImage from "react-modal-image";
-import indoorplant from "../../images/indoorplant.jpg";
+import plantimage from "../../images/indoorplant.jpg";
 import { useDispatch } from "react-redux";
 import { toast } from "react-toastify";
 import {
@@ -10,7 +10,7 @@ import {
 } from "@ant-design/icons";
 
 const ProductCardInCheckout = ( { p } ) => {
-	const colors = [ "Black", "Brown", "Silver", "White", "Blue" ];
+
 	let dispatch = useDispatch();
 
 	const handleColorChange = ( e ) => {
@@ -108,33 +108,14 @@ const ProductCardInCheckout = ( { p } ) => {
 						{p.images.length ? (
 							<ModalImage small={p.images[ 0 ].url} large={p.images[ 0 ].url} />
 						) : (
-								<ModalImage small={indoorplant} large={indoorplant} />
+								<ModalImage small={plantimage} large={plantimage} />
 							)}
 					</div>
 				</td>
 				<td>{p.title}</td>
 				<td>${p.price}</td>
 
-				<td>
-					<select
-						onChange={handleColorChange}
-						name="color"
-						className="form-control"
-					>
-						{p.color ? (
-							<option value={p.color}>{p.color}</option>
-						) : (
-								<option>Select</option>
-							)}
-						{colors
-							.filter( ( c ) => c !== p.color )
-							.map( ( c ) => (
-								<option key={c} value={c}>
-									{c}
-								</option>
-							) )}
-					</select>
-				</td>
+
 				<td className="text-center">
 					<input
 						type="number"
