@@ -2,6 +2,7 @@
   "name": "plant-ecomm",
   "version": "0.1.0",
   "private": true,
+  "proxy":"https://trefle.io/",
   "dependencies": {
     "@ant-design/icons": "^4.3.0",
     "@testing-library/jest-dom": "^5.11.6",
@@ -11,6 +12,7 @@
     "antd": "^4.9.1",
     "axios": "^0.21.0",
     "firebase": "^8.2.0",
+    "node-fetch": "^2.6.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-image-file-resizer": "^0.3.8",
@@ -25,6 +27,7 @@
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.8",
     "typewriter-effect": "^2.17.0",
+    "use-data-api": "^1.0.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {

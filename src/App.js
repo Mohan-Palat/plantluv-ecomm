@@ -16,6 +16,7 @@ import UserRoute from "./components/routes/UserRoute";
 import AdminRoute from "./components/routes/AdminRoute";
 import Password from "./pages/user/Password";
 import Wishlist from "./pages/user/Wishlist";
+import Sname from "./pages/user/ScientificName";
 import AdminDashboard from "./pages/admin/AdminDashboard";
 import CategoryCreate from "./pages/admin/category/CategoryCreate";
 import CategoryUpdate from "./pages/admin/category/CategoryUpdate";
@@ -80,6 +81,7 @@ const App = () => {
 				<UserRoute exact path="/user/history" component={History} />
 				<UserRoute exact path="/user/password" component={Password} />
 				<UserRoute exact path="/user/wishlist" component={Wishlist} />
+				<UserRoute exact path="/user/sname" component={Sname} />
 				<AdminRoute exact path="/admin/dashboard" component={AdminDashboard} />
 				<AdminRoute exact path="/admin/category" component={CategoryCreate} />
 				<AdminRoute
