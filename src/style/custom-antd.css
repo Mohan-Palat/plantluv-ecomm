@@ -13,6 +13,63 @@ body {
   line-height: 1.5715;
   background-color: #fcf9f3;
   font-feature-settings: "tnum";
+
+  /*background-image: url("../images/bg1.png"); /* The image used */
+
+  /*height: 500px; 
+  background-position: right; 
+  background-repeat: no-repeat; 
+  background-size: cover; */
+}
+
+/*.homepage {
+  background-image: url("../images/bg2.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1000px;
+}*/
+nav {
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  background-color: #fcba03;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+nav a {
+  display: block;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 16px;
+  text-decoration: none;
+}
+nav a.selected {
+  background-color: rgb(15, 189, 20);
+  color: rgb(255, 255, 255);
+}
+nav a:hover:not(.selected) {
+  background-color: white;
+  color: #fcba03;
+}
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+@media screen and (max-width: 700px) {
+  nav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  nav a {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+  }
 }
 /*[tabindex="-1"]:focus {
   outline: none !important;
