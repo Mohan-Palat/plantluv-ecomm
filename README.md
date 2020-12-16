@@ -19,7 +19,7 @@ Node.Js
 https://github.com/sunitha1022/plantluv-ecomm/wiki
 
 # Wireframes
-Wire Frames[W](Wire Frames)
+https://docs.google.com/document/d/1mv9g33f44jPc8W5bRWKhufp5q61IogP6g5OPnZRSyrQ/edit
 
 
 # Getting Started with Create React App
