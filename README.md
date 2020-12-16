@@ -1,44 +1,4 @@
 
-# User Stories
-User Stories:
-
-As a user, I should be able to enter the correct email address and password so that I will be  routed to the home page.
-
-As a user, when I enter an incorrect combination of email address and password, the site should display an error message, so that I know I entered incorrect information.
-
-As a user, I want to have a link to reset my password, so that I can reset my password.
-
-As a user, I want the capability to log off from the site, so that no one can else can use my credentials.
-
-As a user, I want to authenticate the user through my google account.
-
-As a user, I want the registration process to be completed by validating the email address.
-
-As an user, I should be able to register to the site, so that i will able to login to the site
-
-As a user, I should be able to browse products, so that i can view products
-
-As a user, I  should be able to add products to the cart, so that i can purchase the products
-
-As a user, I should be able delete products from my cart
-
-As a user, I am able to check-out so that i complete my shopping transaction 
-
-As a user, I should be able to search products 
-
-As a user, I should be able to see the total amount in the shopping cart, so that I will be able to check out.
-
-As a user, I should be able to cancel my order, reset cart, update cart
-
-As a user, I able to enter shipping address
-
-As a user, I should be able to give a rating to the product
-
-As a user, I should be able to search the products based on the rating.
-
-As a user, I want an admin dashboard, so that I can add plants.
-
-
 
 # Technology Stack
 
