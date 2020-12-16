@@ -40,7 +40,7 @@ As a user, I want an admin dashboard, so that I can add plants.
 
 
 
-#Technology Stack:
+# Technology Stack
 
 Authentication using firebase
 
