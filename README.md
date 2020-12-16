@@ -8,6 +8,13 @@ Redux for state management
 
 React Hooks, React Routes, AntD for front end
 
+MongoDB
+
+Express
+
+Node.Js
+
+
 
 
 
