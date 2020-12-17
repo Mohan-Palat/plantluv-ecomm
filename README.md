@@ -22,7 +22,7 @@ Plant Exchange is an online React application where users can buy plants add add
 -Node.Js
 
 
-# User Stories
+# User Stories & DB Models
 https://github.com/sunitha1022/plantluv-ecomm/wiki
 
 # Wireframes
