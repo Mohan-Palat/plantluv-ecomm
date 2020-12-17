@@ -1,6 +1,9 @@
 
 # Plant Exchange React Application
-Plant Exchange is an online React application where users can buy plants add add plants. Users need to register and login to perform  e-commerce. Please click [here](https:// to access.
+Plant Exchange is an online React application where users can buy plants and an admin can add inventory of  plants with various plant categories. 
+Users need to register and login to perform e-commerce.
+User can use email to register and login to the app .
+Please click [here](https://myplantexchangeapp.herokuapp.com/login) to access.
 
 # Project Repo Links
 
