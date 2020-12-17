@@ -26,12 +26,23 @@ https://github.com/sunitha1022/plantluv-ecomm/wiki
 https://docs.google.com/document/d/1mv9g33f44jPc8W5bRWKhufp5q61IogP6g5OPnZRSyrQ/edit
 
 
-#Acknowledgments/References 
+# Acknowledgments/References 
 
--Google Search
--Stackover Flow
+www.firebase.com
 
+www.redux.com
 
+https://reactjs.org/docs/hooks-intro.html
+
+https://firebase.google.com/docs/auth
+
+http://react-redux-firebase.com/docs/auth
+
+https://ant.design/docs/react/introduce
+
+https://docs.mongodb.com/
+
+www.udemy.com
 
 
 
