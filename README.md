@@ -7,8 +7,10 @@ Please click [here](https://myplantexchangeapp.herokuapp.com/login) to access.
 
 # Project Repo Links
 
+
 # Heroku Links
 -Backend https://plantexchange-backend.herokuapp.com/
+- Frontend https://myplantexchangeapp.herokuapp.com/login
 - Frontend 
 ### Technology Stack
 
