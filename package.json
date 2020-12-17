@@ -48,7 +48,7 @@
     ]
   },
   "engines": {
-    "node": "v12.18.4"
+    "node": "12.18.4"
   },
   "browserslist": {
     "production": [
