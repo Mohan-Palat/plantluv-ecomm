@@ -2,7 +2,7 @@
   "name": "plant-ecomm",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://trefle.io/",
+  "proxy": "https://plantexchange-backend.herokuapp.com/",
   "dependencies": {
     "moment": "^2.29.1",
     "@material-ui/core": "^4.11.2",
@@ -35,10 +35,11 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+	 "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+	"eject": "react-scripts eject",
+	"heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build"
   },
   "eslintConfig": {
     "extends": [
@@ -46,6 +47,9 @@
       "react-app/jest"
     ]
   },
+   "engines": {
+    "node": "10.16.0"
+    },
   "browserslist": {
     "production": [
       ">0.2%",
