@@ -5,7 +5,7 @@ Users need to register and login to perform e-commerce.
 User can use email to register and login to the app .
 Please click [here](https://myplantexchangeapp.herokuapp.com/login) to access.
 
-# Project Repo Links
+
 
 
 # Heroku Links
