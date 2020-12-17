@@ -10,8 +10,8 @@ Please click [here](https://myplantexchangeapp.herokuapp.com/login) to access.
 
 # Heroku Links
 -Backend https://plantexchange-backend.herokuapp.com/
-- Frontend https://myplantexchangeapp.herokuapp.com/login
-- Frontend 
+-Frontend https://myplantexchangeapp.herokuapp.com/login
+
 ### Technology Stack
 
 -Authentication using firebase
