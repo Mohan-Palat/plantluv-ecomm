@@ -26,6 +26,15 @@ Please click [here](https://myplantexchangeapp.herokuapp.com/login) to access.
 
 -Node.Js
 
+### Development and Deployment Environment:
+- Visual Studio Code
+- Chrome
+- Heroku
+
+### Version Control:
+- GIT Repo
+- GitHub (Main and Branches)
+
 
 # User Stories & DB Models
 https://github.com/sunitha1022/plantluv-ecomm/wiki
